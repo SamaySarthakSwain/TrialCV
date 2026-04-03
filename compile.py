@@ -2,7 +2,7 @@ import urllib.request, urllib.parse, sys
 try:
     with open('cv.tex', 'r', encoding='utf-8') as f:
         text = f.read()
-    url = 'https://latexonline.cc/compile'
+    url = 'https://latex.vercel.app/compile'
     data = urllib.parse.urlencode({'text': text}).encode('utf-8')
     req = urllib.request.Request(url, data=data)
     with urllib.request.urlopen(req) as response:

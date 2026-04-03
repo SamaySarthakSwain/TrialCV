@@ -1,20 +1,148 @@
-<!DOCTYPE HTML>
-<html lang="en-US">
-    <head>
-        <meta charset="UTF-8">      
-        
-        <!--You can add your name and affiliation below to personalise -->
-        <meta property="og:title" content="My CV"/>
-        
-        <!--You can add your keywords to personalise-->
-        <meta property="og:description" content="Education, Experience, Projects etc."/>
-        
-        <meta property="og:image" content="https://dummyimage.com/100x100/000/fff&text=CV" />
-        <title>CV</title>
-    </head>
-    <body>
-    <script type="text/javascript">
-        window.location.href = "./cv.pdf"
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SAMAY SARTHAK SWAIN | CV</title>
+    <meta name="description" content="Professional CV of Samay Sarthak Swain - Full Stack Developer">
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="cv-container">
+        <header>
+            <h1>SAMAY SARTHAK SWAIN</h1>
+            <div class="contact-info">
+                <a href="mailto:samaysarthakswain@gmail.com"><i class="fa-solid fa-envelope"></i> samaysarthakswain@gmail.com</a>
+                <a href="tel:+918327780375"><i class="fa-solid fa-mobile-screen-button"></i> 8327780375</a>
+                <a href="https://linkedin.com/in/SamaySarthakSwain_LinkedIn"><i class="fa-brands fa-linkedin"></i> LinkedIn</a>
+                <a href="https://github.com/SamaySarthakSwain"><i class="fa-brands fa-github"></i> GitHub</a>
+            </div>
+        </header>
+
+        <section class="summary">
+            <h2>Summary</h2>
+            <p>Dynamic Full Stack Developer specializing in AI-integrated web applications and scalable system architecture. Proven track record in building high-impact solutions, including a tourism platform with AR/VR capabilities and an AI-driven healthcare monitor. Winner of GDG Atlas OnCampus, with a focus on delivering user-centric technology and high-performance code.</p>
+        </section>
+
+        <section class="projects">
+            <h2>Projects</h2>
+            
+            <div class="project-item">
+                <div class="project-header">
+                    <span class="project-name">Lets Explore -- AI Tourism Platform</span>
+                    <span class="project-date">May 2025 - Present</span>
+                </div>
+                <ul>
+                    <li>Leveraged <span class="tech-stack">React.js</span> and <span class="tech-stack">Three.js</span> to conceptualize AR/VR-based monument exploration with 3D models.</li>
+                    <li>Integrated <span class="tech-stack">Web Speech API</span> for audio-guided navigation and voice-based site interaction.</li>
+                    <li>Designed an AI travel assistant using <span class="tech-stack">LLMs (Gemini/OpenAI)</span> to provide real-time itinerary support.</li>
+                    <li>Implemented Emergency SOS features with <span class="tech-stack">Google Maps API</span> to locate nearby hospitals and services.</li>
+                </ul>
+            </div>
+
+            <div class="project-item">
+                <div class="project-header">
+                    <span class="project-name">NeuroGuard -- AI Healthcare Web Platform</span>
+                    <span class="project-date">Feb 2024 - Present</span>
+                </div>
+                <ul>
+                    <li>Developed a full-stack healthcare monitor using <span class="tech-stack">Node.js</span>, <span class="tech-stack">Express</span>, and <span class="tech-stack">FastAPI</span> for real-time AI processing.</li>
+                    <li>Designed and developed a healthcare-focused web platform showcasing AI-driven health monitoring concepts.</li>
+                    <li>Translated complex healthcare ideas into simple, user-friendly <span class="tech-stack">Tailwind CSS</span> web interfaces.</li>
+                </ul>
+            </div>
+
+            <div class="project-item">
+                <div class="project-header">
+                    <span class="project-name">V2V Communication & Vehicle Black Box System</span>
+                    <span class="project-date">Oct 2025</span>
+                </div>
+                <ul>
+                    <li>Designed a Vehicle-to-Vehicle (V2V) system using <span class="tech-stack">C++</span> and <span class="tech-stack">MQTT</span> to exchange safety and alert data.</li>
+                    <li>Built a hardware-integrated black box system using <span class="tech-stack">Arduino/ESP32</span> to record speed, location, and event data.</li>
+                    <li>Enabled real-time accident data logging for post-incident analysis and emergency response.</li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="experience">
+            <h2>Work Experience & Internships</h2>
+            <div class="project-item">
+                <div class="project-header">
+                    <span class="project-name">MMG GRAPHICS</span>
+                    <span class="project-date">Oct 2023 - Jan 2024</span>
+                </div>
+                <p>UI/UX & Graphic Designer - Handled brand identity and digital interface designs.</p>
+            </div>
+            <div class="project-item">
+                <div class="project-header">
+                    <span class="project-name">NIST UNIVERSITY</span>
+                    <span class="project-date">May 2024 - Jul 2024</span>
+                </div>
+                <p>Technical Research Intern -- Object-Oriented Programming (OOPS) in C++</p>
+            </div>
+        </section>
+
+        <section class="education">
+            <h2>Education</h2>
+            <div class="project-header">
+                <span class="project-name">NIST UNIVERSITY</span>
+                <span class="project-date">Aug 2024 -- 2028</span>
+            </div>
+            <p>B-TECH in Computer Science and Engineering (Specialisation - AI/ML)</p>
+            
+            <div style="margin-top: 0.5rem;" class="project-header">
+                <span class="project-name">KC PUBLIC SCHOOL (Class 12th)</span>
+                <span class="project-date">Apr 2021 -- Jul 2022</span>
+            </div>
+            <p>Final Result: 80%</p>
+
+            <div style="margin-top: 0.5rem;" class="project-header">
+                <span class="project-name">KC PUBLIC SCHOOL (Class 10th)</span>
+                <span class="project-date">Apr 2019 -- Jul 2020</span>
+            </div>
+            <p>Final Result: 93%</p>
+        </section>
+
+        <section class="skills">
+            <h2>Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-category">Frontend & Design</div>
+                <div class="skill-list">React.js, Three.js, JavaScript (ES6+), HTML5, CSS3, Tailwind CSS, UI/UX Design</div>
+                
+                <div class="skill-category">Backend & Languages</div>
+                <div class="skill-list">TypeScript, Node.js, FastAPI, Python, Java, C/C++, MySQL, MongoDB</div>
+                
+                <div class="skill-category">Tools & Infrastructure</div>
+                <div class="skill-list">Git/GitHub, Netlify, Docker, Vercel, REST APIs, Clean Code Principles</div>
+            </div>
+        </section>
+
+        <section class="achievements">
+            <h2>Achievements</h2>
+            <ul>
+                <li class="achievement-item">
+                    <span><strong>GDG ATLAS ONCAMPUS</strong> - Winner</span>
+                </li>
+                <li class="achievement-item">
+                    <span><strong>Odisha AI symposium</strong> - 1st runner-up</span>
+                </li>
+            </ul>
+        </section>
+
+        <footer>
+            Last updated: <span id="current-date"></span>
+        </footer>
+    </div>
+
+    <script>
+        document.getElementById('current-date').textContent = new Date().toLocaleDateString(undefined, {
+            year: 'numeric', month: 'long', day: 'numeric'
+        });
     </script>
-    </body>
+</body>
 </html>
