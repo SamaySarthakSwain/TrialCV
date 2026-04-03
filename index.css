@@ -170,6 +170,11 @@ footer {
     body { background: white; padding: 0; }
     .cv-container { box-shadow: none; border-radius: 0; padding: 0; width: 100%; max-width: none; }
     .contact-info a { color: black !important; }
+    .page-break-before { 
+        page-break-before: always; 
+        break-before: page; 
+        margin-top: 20px;
+    }
 }
 
 @media (max-width: 600px) {
